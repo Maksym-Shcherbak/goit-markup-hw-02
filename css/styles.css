@@ -56,6 +56,10 @@ body {
     color: var(--dark);
 }
 
+.address {
+    font-style: normal;
+}
+
 .contact {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -191,6 +195,16 @@ body {
     line-height: 1.2;
     color: var(--dark);
     text-transform: capitalize;
+}
+
+.project-name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
 }
 
 
