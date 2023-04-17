@@ -19,8 +19,11 @@ body {
     background-color: var(--white-background);
 }
 
-.undecore {
+.list {
     list-style: none;
+}
+
+.link {
     text-decoration: none;
 }
 
@@ -29,25 +32,21 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
-}
-
-.header {
-    color: var(--dark);
-}
-
-.logo-span {
     color: var(--brand-color);
 }
 
-.nav-link {
+.header-span {
+    color: var(--dark);
+}
+
+.navigation {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -57,7 +56,7 @@ body {
     color: var(--dark);
 }
 
-.contact-link {
+.contact {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -67,16 +66,16 @@ body {
     color: var(--text);
 }
 
-.nav-link:active {
+.navigation:active {
     color: var(--pressed-state);
     border-bottom: solid 4px var(--pressed-state);
 }
 
-.contact-link:active {
+.contact:active {
     color: var(--pressed-state);
 }
 
-.nav-link:hover,.nav-link:focus, .contact-link:hover, .contact-link:focus {
+.navigation:hover,.navigation:focus, .contact:hover, .contact:focus {
     color: var(--pressed-state);
 }
 
@@ -88,7 +87,9 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--white-background);
+    text-align: center;
 }
 
 .order-button {
@@ -97,7 +98,7 @@ body {
     background-color: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -111,10 +112,11 @@ body {
     cursor: pointer;
 }
 
-.features-list-title {
+.feature-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--dark);
 }
 
@@ -122,8 +124,10 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    text-align: center;
 }
 
 .our-team {
@@ -134,14 +138,20 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    text-align: center;
 }
 
+.team-member {
+    background-color: var(--white-background);
+}
 .team-member-vacation {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--dark);
 }
 
@@ -150,7 +160,7 @@ body {
     color: var(--light);
 }
 
-.footer {
+.footer-span {
     color: var(--light);
 }
 
